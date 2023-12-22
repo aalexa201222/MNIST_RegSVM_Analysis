@@ -22,7 +22,7 @@ This study delves into the MNIST dataset, a widely-used benchmark in machine lea
 - Achieved an accuracy of 89.98% on the test dataset.
 - Successful feature engineering and hyperparameter tuning contributed to its performance.
 
-### Support Vector Machine
+**Support Vector Machine**
 - RBF kernel outperformed other kernels with an accuracy of 95.87%.
 - Precise hyperparameter tuning led to high performance in digit classification.
 
@@ -40,8 +40,7 @@ While the regularized multinomial logit model showcased notable performance, the
 
 ## Installation
 Clone the repository to your local machine:
-git clone https://github.com/aalexa201222/Multi-armed-Bandits.git
-
+git clone https://github.com/aalexa201222/ANALYSIS-OF-MNIST-DATASET-USING-THE-REGULARIZED-MULTINOMIAL-LOGIT-MODEL-AND-SUPPORT-VECTOR-MACHINES.git
 ## Contributors
 [Andreas Alexandrou](https://www.linkedin.com/in/andreas-alexandrou-056528242) <br />
 Sotiris Zenios
