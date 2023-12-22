@@ -4,30 +4,30 @@
 This study delves into the MNIST dataset, a widely-used benchmark in machine learning, with a focus on evaluating the performance of two classification models: the regularized multinomial logit model with LASSO penalty and Support Vector Machines (SVMs). The analysis includes feature engineering, model training, and comparison.
 
 ## Key Findings
-1. Feature Analysis
-Ink Feature
+### 1. Feature Analysis
+**Ink Feature**
 - Limited effectiveness, achieving only 22% accuracy.
 - Struggled with misclassifications, especially for complex digits like '4', '5', '6', '8'.
 
-Quadrant Density Feature
+**Quadrant Density Feature**
 - Improved accuracy to 46%, capturing spatial patterns.
 - Continued to face challenges with complex digits, indicating the need for more advanced features.
 
-Combination of Features
+**Combination of Features**
 - No improvement observed, as the 'ink' feature did not contribute significantly.
 
-2. Models Performance using Raw Pixel Values
+### 2. Models Performance using Raw Pixel Values
 
-Regularized Multinomial Logit Model
+**Regularized Multinomial Logit Model**
 - Achieved an accuracy of 89.98% on the test dataset.
 - Successful feature engineering and hyperparameter tuning contributed to its performance.
 
-Support Vector Machine
+### Support Vector Machine
 - RBF kernel outperformed other kernels with an accuracy of 95.87%.
 - Precise hyperparameter tuning led to high performance in digit classification.
 
-3. Model Comparison
-McNemar Test
+### 3. Model Comparison
+**McNemar Test**
 - Statistically significant difference in error patterns between the two models.
 - SVM outperformed the multinomial logit model in terms of accuracy.
   
