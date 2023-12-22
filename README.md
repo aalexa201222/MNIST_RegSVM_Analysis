@@ -40,7 +40,7 @@ While the regularized multinomial logit model showcased notable performance, the
 
 ## Installation
 Clone the repository to your local machine:
-git clone https://github.com/aalexa201222/ANALYSIS-OF-MNIST-DATASET-USING-THE-REGULARIZED-MULTINOMIAL-LOGIT-MODEL-AND-SUPPORT-VECTOR-MACHINES.git
+git clone https://github.com/aalexa201222/MNIST_RegSVM_Analysis.git
 ## Contributors
 [Andreas Alexandrou](https://www.linkedin.com/in/andreas-alexandrou-056528242) <br />
 Sotiris Zenios
